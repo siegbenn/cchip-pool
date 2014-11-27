@@ -30,7 +30,7 @@
             },
             {
                 "port": 5555,
-                "difficulty": 2000,
+                "difficulty": 1000,
                 "desc": "Mid range hardware"
             },
             {
@@ -74,13 +74,13 @@
 
     "payments": {
         "enabled": true,
-        "interval": 600,
+        "interval": 60,
         "maxAddresses": 50,
         "mixin": 3,
         "transferFee": 50000000,
-        "minPayment": 1000000000,
+        "minPayment": 10000000000,
         "maxTransactionAmount": 0,
-        "denomination": 1000000000
+        "denomination": 10000000000
     },
 
     "blockUnlocker": {
